@@ -24,7 +24,7 @@ public class Main {
         System.out.println();
         System.out.println("Список моїх вчителів:");
         System.out.println("---------------------------");
-        for (int i = 0; i<teachers.size(); i++) {
+        for (int i = 0; i< teachers.size(); i++) {
             System.out.println(i + " : " + teachers.get(i).getName());
         }
         System.out.println("---------------------------");
